@@ -1,0 +1,13 @@
+# Go - Ignore binaries and secrets
+/ingest/main
+/ingest/.env
+*.exe
+
+# Node/Next.js - Ignore dependencies and builds
+/web/node_modules
+/web/.next
+/web/.env
+/web/.env.local
+
+# General
+.DS_Store
