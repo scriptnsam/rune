@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-signal-orange: #ea580c;
+  --color-dark-slate: #111827;
+
+  --font-sans: "Inter", "system-ui", "sans-serif";
+  --font-mono: "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace";
+}
+
+@layer base {
+  body {
+    @apply bg-dark-slate text-white;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
